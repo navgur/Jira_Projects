@@ -20,5 +20,5 @@ while i<len(user_data):
         "emailAddress": emailAddress,
         "displayName":displayName
     })
-    response=requests.post(url,headers=headers,data=payroal,auth=("ranisingh21@navgurukul.org","Z6Wb0ny3miznaLMLe2xK4488"))
+    response=requests.post(url,headers=headers,data=payroal,auth=("ranisingh21@navgurukul.org","iB9EOlpmiVee0ZEJxJoj9A5E"))
     print(response.text)
