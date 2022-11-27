@@ -20,5 +20,5 @@ while row<len(data)-2:
     "accountId": user_id
     }
     )
-    response=requests.put(url,headers=header,data=payload,auth=("ranisingh21@navgurukul.org","Z6Wb0ny3miznaLMLe2xK4488"))
+    response=requests.put(url,headers=header,data=payload,auth=("ranisingh21@navgurukul.org","OpE9DfPiwLRoW63kotU740A3"))
     print(response.text)
