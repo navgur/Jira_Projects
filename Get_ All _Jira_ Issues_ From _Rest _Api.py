@@ -9,7 +9,7 @@ header={
 query={
     'jql':"project=REET"
 }
-response=requests.get(url,headers=header,params=query,auth=("ranisingh21@navgurukul.org","Z6Wb0ny3miznaLMLe2xK4488"))
+response=requests.get(url,headers=header,params=query,auth=("ranisingh21@navgurukul.org","SH48NgTE95gNwc52TugFF534"))
 data=response.json()
 issues=data["issues"]
 for issue in issues:
