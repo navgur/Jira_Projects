@@ -25,5 +25,5 @@ for rows in data:
    }
 }
 )
- response=requests.post(url,headers=header,data=payload,auth=("ranisingh21@navgurukul.org","Z6Wb0ny3miznaLMLe2xK4488"))
+ response=requests.post(url,headers=header,data=payload,auth=("ranisingh21@navgurukul.org","KwrsfPDncqyIwniA5ywW4FFE"))
  print(response.text)
