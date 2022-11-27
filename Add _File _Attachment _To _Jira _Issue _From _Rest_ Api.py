@@ -7,5 +7,5 @@ header={
 }
 files={"file":("userlist.csv",open("userlist.csv","rb"))}
 
-response=requests.post(url,headers=header,files=files,auth=("ranisingh21@navgurukul.org","Z6Wb0ny3miznaLMLe2xK4488"))
+response=requests.post(url,headers=header,files=files,auth=("ranisingh21@navgurukul.org","eKYVle7eNixWcJBGZJeZE525"))
 print(response.text)
