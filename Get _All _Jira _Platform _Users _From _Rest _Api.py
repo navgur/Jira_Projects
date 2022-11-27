@@ -5,7 +5,7 @@ headers={
      "Accept": "application/json",
    "Content-Type": "application/json"
 }
-response=requests.get(url,headers=headers,auth=("ranisingh21@navgurukul.org","8YEegSmHZAcbfT8lLEo95BEF"))
+response=requests.get(url,headers=headers,auth=("ranisingh21@navgurukul.org","gXnj0OXTjZ3XDcIOpHSM68BD"))
 data=response.json()
 print(len(data))
 for users in data:
