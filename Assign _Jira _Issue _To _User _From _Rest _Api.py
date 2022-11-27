@@ -13,5 +13,5 @@ payload=json.dumps(
 }
 )
 
-response=requests.put(url,headers=header,data=payload,auth=("ranisingh21@navgurukul.org","Z6Wb0ny3miznaLMLe2xK4488"))
+response=requests.put(url,headers=header,data=payload,auth=("ranisingh21@navgurukul.org","GD1tyVcrnhvyEDzjrMmz01A2"))
 print(response.text)
