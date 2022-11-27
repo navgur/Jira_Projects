@@ -24,5 +24,5 @@ data=json.dumps({"body": {
   }
 })
 
-response=requests.put(url,headers=header,data=data,auth=("ranisingh21@navgurukul.org","Z6Wb0ny3miznaLMLe2xK4488"))
+response=requests.put(url,headers=header,data=data,auth=("ranisingh21@navgurukul.org","JN96uGIGMcUSkoIbMYyvC26E"))
 print(response.text)
