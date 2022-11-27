@@ -7,6 +7,6 @@ header={
    "Content-Type": "application/json"
 }
 
-response=requests.delete(url,headers=header,auth=("ranisingh21@navgurukul.org","Z6Wb0ny3miznaLMLe2xK4488"))
+response=requests.delete(url,headers=header,auth=("ranisingh21@navgurukul.org","PYgbij5PWwWb4lNhpy67D689"))
 data=response.text
 print(data)
